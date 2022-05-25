@@ -9,30 +9,36 @@ AH = "anchor health"
 # Roles
 NLP = "nlp"
 ONTOLOGY = "ontology"
-
-class Duty:
-  def __init__(self, description, jobs=[], roles=[], text_adds={}):
-    self.jobs = jobs
-    self.roles = roles
-    self.description = description
-    self.text_adds = text_adds
+CHATBOT = "chatbot"
 
 just_jbox = [JUICEBOX]
 
-class Jbox_duties:
-    man_nlp = Duty("Managed the NLP {}for a virtual assistant that went from 13,000 to 100,000 current subscribers while working on the project.", text_adds={NLP: "", ONTOLOGY: "and ontology "})
+user_data = {"desc": "Analyzed user data."}
+train_models = {"desc": "Trained {} models for various clients.", "template": {NLP: "NLP", CHATBOT: "AI"}}
+jbox_duties = [
+    {
+        "desc": "Managed the NLP {}for a virtual assistant that went from 13,000 to 100,000 current subscribers while working on the project.", 
+        "template": {NLP: "", ONTOLOGY: "and ontology "}, 
+        "moveable": False
+    },
 
-    nlu = Duty("Trained natural language understanding (NLU) models with text/intent classification and entity extraction.")
+    {
+        "desc": "Took an NLP system that could recognize 55 intents and 450 entities to one that can recognize 101 intents and {}+ entities. This included increasing the number of sex act and body part entities from 10 to 5000+.",
+        "template": {NLP: "100,000", ONTOLOGY: "8850"}
+    },
 
-    ent_num = Duty("Took an NLP system that could recognize 55 intents and 450 entities to one that can recognize 101 intents and {}+ entities. This included increasing the number of sex act and body part entities from 10 to 5000+.", text_adds={NLP: "100,000", ONTOLOGY: "8850"})
+    {"desc": "Trained natural language understanding (NLU} models with text/intent classification and entity extraction."},
+    {"desc": "Built syntactic parsing pipelines to extract complex sex names from users."},
+    {"desc": "Worked on the task of training AI models to recognize sexual consent."},
+    user_data,
+    {"desc": "Researched and experimented with state of the art/cutting-edge language models and pipelines."},
+    {"desc": "Experimented with natural language generation."},
+    {"desc": "Worked on NLP roadmap."},
+    {"desc": "Created an initiative to build internal no-code tools to cut down on engineering time."},
+    {"desc": "Set up automated testing of NLU."},
+    {"desc": "Advised management on technical NLP topics and strategies for communicating them to investors."},
+]
 
-    sex_name = Duty("Built syntactic parsing pipelines to extract complex sex names from users.")
-    consent = Duty("Worked on the task of training AI models to recognize sexual consent.")
-    research = Duty("Researched and experimented with state of the art/cutting-edge language models and pipelines.")
-    nlg = Duty("Experimented with natural language generation.")
-    nlp_roadmap = Duty("Worked on NLP roadmap.")
-    no_code = Duty("Created an initiative to build internal no-code tools to cut down on engineering time.")
+nlp_skills = ["Natural Language Processing/Understanding", "Conversational AI", "Semantic/Syntactic Parsing", "Machine Learning", "Natural Language Generation", "Text Analytics", "Natural Language Inference", "Language Modeling", "Transformers", "Transfer Learning", "Research", "SQL", "Text/Intent Classification", "Python", "Named Entity Recognition", "Hugging Face", "Anomaly/Novelty Detection", "spaCy", "Semantic Search"]
 
-
-user_data = Duty("Analyzed user data.", [JUICEBOX, AH])
-
+onto_skills = ["Ontologies and Taxonomies", "OWL", "RDF", "SPARQL", "Protégé", "Owlready2", "Basic Formal Ontology (BFO)"]
