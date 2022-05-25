@@ -39,6 +39,38 @@ jbox_duties = [
     {"desc": "Advised management on technical NLP topics and strategies for communicating them to investors."},
 ]
 
-nlp_skills = ["Natural Language Processing/Understanding", "Conversational AI", "Semantic/Syntactic Parsing", "Machine Learning", "Natural Language Generation", "Text Analytics", "Natural Language Inference", "Language Modeling", "Transformers", "Transfer Learning", "Research", "SQL", "Text/Intent Classification", "Python", "Named Entity Recognition", "Hugging Face", "Anomaly/Novelty Detection", "spaCy", "Semantic Search"]
+nlp_skills = {
+    "Natural Language Processing/Understanding": {},
+    "Conversational AI": {},
+    "Chatbots": {"alternative": "conversational ai"},
+    "chatbot": {"synonym": "chatbots"},
+    "bot": {"synonym": "chatbots"},
+    "Semantic/Syntactic Parsing": {},
+    "Machine Learning": {},
+    "Natural Language Generation": {},
+    "Text Analytics": {},
+    "Natural Language Inference": {},
+    "Language Modeling": {},
+    "Transformers": {},
+    "Transfer Learning": {},
+    "Research": {},
+    "SQL": {},
+    "Text/Intent Classification": {},
+    "Python": {},
+    "Named Entity Recognition": {},
+    "Hugging Face": {},
+    "Anomaly/Novelty Detection": {},
+    "spaCy": {},
+    "Semantic Search": {}
+}
 
-onto_skills = ["Ontologies and Taxonomies", "OWL", "RDF", "SPARQL", "Protégé", "Owlready2", "Basic Formal Ontology (BFO)"]
+onto_skills = {
+    "Ontologies and Taxonomies": {},
+    "OWL": {},
+    "RDF": {},
+    "rdfs": {"synonym": "rdf"},
+    "SPARQL": {},
+    "Protégé": {},
+    "Owlready2": {},
+    "Basic Formal Ontology (BFO)": {}
+}
