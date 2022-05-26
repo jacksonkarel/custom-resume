@@ -1,0 +1,110 @@
+{
+    "nlp": {
+        "natural language processing/understanding": {
+            "capitalized": "Natural Language Processing/Understanding"
+        },
+        "natural language processing": {
+            "alternative": "natural language processing/understanding"
+        },
+        "conversational ai": {
+            "capitalized": "Conversational AI"
+        },
+        "chatbots": {
+            "alternative": "conversational ai",
+            "capitalized": "Chatbots"
+        },
+        "chatbot": {
+            "synonym": "chatbots",
+            "capitalized": "chatbot"
+        },
+        "bot": {
+            "synonym": "chatbots",
+            "capitalized": "bot"
+        },
+        "semantic/syntactic parsing": {
+            "capitalized": "Semantic/Syntactic Parsing"
+        },
+        "machine learning": {
+            "capitalized": "Machine Learning"
+        },
+        "natural language generation": {
+            "capitalized": "Natural Language Generation"
+        },
+        "text analytics": {
+            "capitalized": "Text Analytics"
+        },
+        "natural language inference": {
+            "capitalized": "Natural Language Inference"
+        },
+        "language modeling": {
+            "capitalized": "Language Modeling"
+        },
+        "transformers": {
+            "capitalized": "Transformers"
+        },
+        "transfer learning": {
+            "capitalized": "Transfer Learning"
+        },
+        "research": {
+            "capitalized": "Research"
+        },
+        "sql": {
+            "capitalized": "SQL"
+        },
+        "text/intent classification": {
+            "capitalized": "Text/Intent Classification"
+        },
+        "python": {
+            "capitalized": "Python"
+        },
+        "named entity recognition": {
+            "capitalized": "Named Entity Recognition"
+        },
+        "hugging face": {
+            "capitalized": "Hugging Face"
+        },
+        "anomaly/novelty detection": {
+            "capitalized": "Anomaly/Novelty Detection"
+        },
+        "spacy": {
+            "capitalized": "spaCy"
+        },
+        "semantic search": {
+            "capitalized": "Semantic Search"
+        }
+    },
+    "ontology": {
+        "ontologies and taxonomies": {
+            "capitalized": "Ontologies and Taxonomies"
+        },
+        "owl": {
+            "capitalized": "OWL"
+        },
+        "rdf": {
+            "capitalized": "RDF"
+        },
+        "rdfs": {
+            "synonym": "rdf",
+            "capitalized": "rdfs"
+        },
+        "sparql": {
+            "capitalized": "SPARQL"
+        },
+        "protégé": {
+            "capitalized": "Protégé"
+        },
+        "owlready2": {
+            "capitalized": "Owlready2"
+        },
+        "basic formal ontology (bfo)": {
+            "capitalized": "Basic Formal Ontology (BFO)"
+        },
+        "object oriented programming": {
+            "capitalized": "Object Oriented Programming"
+        },
+        "object oriented": {
+            "synonym": "object oriented programming"
+        },
+        "NoSQL": {}
+    }
+}
