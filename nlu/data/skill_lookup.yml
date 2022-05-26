@@ -1,0 +1,37 @@
+version: "3.1"
+nlu:
+- lookup: skill
+  examples: |
+    - natural language processing/understanding
+    - natural language processing
+    - conversational ai
+    - chatbots
+    - chatbot
+    - bot
+    - semantic/syntactic parsing
+    - machine learning
+    - natural language generation
+    - text analytics
+    - natural language inference
+    - language modeling
+    - transformers
+    - transfer learning
+    - research
+    - sql
+    - text/intent classification
+    - python
+    - named entity recognition
+    - hugging face
+    - anomaly/novelty detection
+    - spacy
+    - semantic search
+    - ontologies and taxonomies
+    - owl
+    - rdf
+    - rdfs
+    - sparql
+    - protégé
+    - owlready2
+    - basic formal ontology (bfo)
+    - object oriented programming
+    - object oriented

@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: dev_leadership
+  examples: |
+    - experience leading high-performing development and engineering teams
+
+- intent: biz_soft_skills
+  examples: |
+    - strong problem-solving skills, business acumen, and demonstrated excellent oral and written communication skills with both technical and non-technical audiences
+
+- intent: blank
+  examples: |
+    - [design patterns](skill), [object oriented](skill) design, [microservices architecture](skill)
+    - [semantic](skill) and [graph](skill) tech - [graph db](skill) / [triple stores](skill) like [stardog](skill), [nosql](skill) dbs, [sparql](skill), [ontology](skill), [rdf](skill), [owl](skill), [r2rml](skill), [graph analytics](skill) & [inferencing](skill), [graph visualization](skill) using components like [d3](skill)
