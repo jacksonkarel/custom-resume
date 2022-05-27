@@ -105,6 +105,8 @@
         "object oriented": {
             "synonym": "object oriented programming"
         },
-        "NoSQL": {}
+        "nosql": {
+            "capitalized": "NoSQL"
+        }
     }
 }
