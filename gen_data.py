@@ -2,6 +2,7 @@ import json
 
 from rasa.shared.nlu.training_data.formats.rasa_yaml import RasaYAMLWriter
 from rasa.shared.nlu.training_data.training_data import TrainingData
+from rasa.model_training import train_nlu
 
 from data import NLP, ONTOLOGY
 
@@ -45,3 +46,5 @@ def gen_data():
 
     with open(skills_path, 'w') as outfile:
         json.dump(new_json, outfile)
+
+    train_nlu("nlu/config.yml", "nlu/data", "models", "resume")
