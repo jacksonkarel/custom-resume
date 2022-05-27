@@ -3,11 +3,12 @@ version: "3.1"
 nlu:
 - intent: dev_leadership
   examples: |
-    - experience leading high-performing development and engineering teams
+    - experience leading high-performing [development](skill) and [engineering](skill) teams
+    - lead the [design](skill), [development](skill) and support of n-tier [distributed applications](skill)
 
-- intent: biz_soft_skills
-  examples: |
-    - strong problem-solving skills, business acumen, and demonstrated excellent oral and written communication skills with both technical and non-technical audiences
+# - intent: biz_soft_skills
+#   examples: |
+#     - strong problem-solving skills, business acumen, and demonstrated excellent oral and written communication skills with both technical and non-technical audiences
 
 - intent: blank
   examples: |
