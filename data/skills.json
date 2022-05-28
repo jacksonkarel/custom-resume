@@ -1,5 +1,5 @@
 {
-    "nlp": {
+
         "natural language processing/understanding": {
             "capitalized": "Natural Language Processing/Understanding"
         },
@@ -71,9 +71,7 @@
         },
         "semantic search": {
             "capitalized": "Semantic Search"
-        }
-    },
-    "ontology": {
+        },
         "ontologies and taxonomies": {
             "capitalized": "Ontologies and Taxonomies"
         },
@@ -108,5 +106,4 @@
         "nosql": {
             "capitalized": "NoSQL"
         }
-    }
 }
