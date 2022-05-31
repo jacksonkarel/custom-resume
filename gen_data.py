@@ -8,7 +8,7 @@ def gen_data():
     lookup_data = TrainingData()
     ent_syn_data = TrainingData()
 
-    skills_path = "data/skills.json"
+    skills_path = "data/skills/skills.json"
     with open(skills_path) as json_file:
         skills = json.load(json_file)
     
@@ -26,8 +26,10 @@ def gen_data():
         low_skills[s_name] = s_value
     
     for skill in low_skills:
-        if "synonym" in low_skills[skill]:
-            ent_syn[skill] = low_skills[skill]["synonym"]
+        if "synonyms" in low_skills[skill]:
+            for syn in low_skills[skill]["synonyms"]:
+                ent_syn[syn] = skill
+                skill_lookup["elements"].append(syn)
         
         skill_lookup["elements"].append(skill)
     
