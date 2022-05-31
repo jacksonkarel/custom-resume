@@ -14,3 +14,7 @@ nlu:
   examples: |
     - [design patterns](skill), [object oriented](skill) design, [microservices architecture](skill)
     - [semantic](skill) and [graph](skill) tech - [graph db](skill) / [triple stores](skill) like [stardog](skill), [nosql](skill) dbs, [sparql](skill), [ontology](skill), [rdf](skill), [owl](skill), [r2rml](skill), [graph analytics](skill) & [inferencing](skill), [graph visualization](skill) using components like [d3](skill)
+
+- intent: auto_testing
+  examples: |
+    - enhance data quality by [validating](skill) mappings between existing data sources and new semantic repositories, as well as between data sources and ontologies/data models.

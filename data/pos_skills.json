@@ -1,0 +1,9 @@
+{
+    "semantics": {
+        "matches": ["semantic/syntactic parsing"]
+    },
+    "graph": {
+        "matches": ["knowledge graphs"]
+    },
+    "documentation": ["documentation"]
+}
