@@ -2,12 +2,12 @@ version: "3.1"
 nlu:
 - lookup: skill
   examples: |
-    - natural language processing/understanding
     - natural language processing
+    - natural language processing/understanding
     - conversational ai
-    - chatbots
     - chatbot
     - bot
+    - chatbots
     - semantic/syntactic parsing
     - machine learning
     - natural language generation
@@ -27,16 +27,27 @@ nlu:
     - semantic search
     - ontologies and taxonomies
     - owl
-    - rdf
     - rdfs
+    - rdf
     - sparql
     - protégé
     - owlready2
     - basic formal ontology (bfo)
-    - object oriented programming
     - object oriented
+    - object oriented programming
     - nosql
     - json
     - shell scripting
     - linux/unix
     - git
+    - semantics
+    - computational linguistics
+    - knowledge graph
+    - knowledge graphs
+    - validate
+    - validation
+    - validated
+    - validator
+    - validates
+    - validating
+    - data validation

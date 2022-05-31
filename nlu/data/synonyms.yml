@@ -13,3 +13,17 @@ nlu:
 - synonym: object oriented programming
   examples: |
     - object oriented
+- synonym: computational linguistics
+  examples: |
+    - semantics
+- synonym: knowledge graphs
+  examples: |
+    - knowledge graph
+- synonym: data validation
+  examples: |
+    - validate
+    - validation
+    - validated
+    - validator
+    - validates
+    - validating

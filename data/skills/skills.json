@@ -1,10 +1,10 @@
 {
     "natural language processing/understanding": {
         "capitalized": "Natural Language Processing/Understanding",
-        "necessary": "nlp"
-    },
-    "natural language processing": {
-        "synonym": "natural language processing/understanding"
+        "necessary": "nlp",
+        "synonyms": [
+            "natural language processing"
+        ]
     },
     "conversational ai": {
         "capitalized": "Conversational AI"
@@ -13,15 +13,11 @@
         "alternative": [
             "conversational ai"
         ],
-        "capitalized": "Chatbots"
-    },
-    "chatbot": {
-        "synonym": "chatbots",
-        "capitalized": "chatbot"
-    },
-    "bot": {
-        "synonym": "chatbots",
-        "capitalized": "bot"
+        "capitalized": "Chatbots",
+        "synonyms": [
+            "chatbot",
+            "bot"
+        ]
     },
     "semantic/syntactic parsing": {
         "capitalized": "Semantic/Syntactic Parsing"
@@ -82,11 +78,10 @@
         "capitalized": "OWL"
     },
     "rdf": {
-        "capitalized": "RDF"
-    },
-    "rdfs": {
-        "synonym": "rdf",
-        "capitalized": "rdfs"
+        "capitalized": "RDF",
+        "synonyms": [
+            "rdfs"
+        ]
     },
     "sparql": {
         "capitalized": "SPARQL"
@@ -101,10 +96,10 @@
         "capitalized": "Basic Formal Ontology (BFO)"
     },
     "object oriented programming": {
-        "capitalized": "Object Oriented Programming"
-    },
-    "object oriented": {
-        "synonym": "object oriented programming"
+        "capitalized": "Object Oriented Programming",
+        "synonyms": [
+            "object oriented"
+        ]
     },
     "nosql": {
         "capitalized": "NoSQL"
@@ -125,13 +120,27 @@
     "git": {
         "capitalized": "Git"
     },
-    "Computational Linguistics": {},
-    "semantics": {
-        "synonym": "computational linguistics"
+    "computational linguistics": {
+        "synonyms": [
+            "semantics"
+        ],
+        "capitalized": "Computational Linguistics"
     },
-    "Knowledge Graphs": {},
-    "knowledge graph": {
-        "synonym": "knowledge graphs"
+    "knowledge graphs": {
+        "synonyms": [
+            "knowledge graph"
+        ],
+        "capitalized": "Knowledge Graphs"
     },
-    "Data Validation": {}
+    "data validation": {
+        "synonyms": [
+            "validate",
+            "validation",
+            "validated",
+            "validator",
+            "validates",
+            "validating"
+        ],
+        "capitalized": "Data Validation"
+    }
 }
